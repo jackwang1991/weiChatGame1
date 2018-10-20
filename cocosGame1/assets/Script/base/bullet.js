@@ -8,8 +8,6 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-var NodeModel = require("nodeModel");
-
 cc.Class({
     extends: cc.Component,
 
@@ -33,22 +31,11 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function () {
-        NodeModel.speedlab = cc.find("gameCanvas/speedNode/label", this.node).getComponent(cc.Label);
-        NodeModel.speedlab.string = "100";
-    },
+    // onLoad () {},
 
-    start: function () {
+    start () {
 
     },
-
-
-    //登录按钮事件
-    longBtn_click: function () {
-        cc.director.loadScene("loginCanvas");
-    },
-
-
 
     // update (dt) {},
 });

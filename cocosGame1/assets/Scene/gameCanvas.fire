@@ -920,7 +920,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "gunView",
+    "_name": "cannon",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -934,13 +934,13 @@
       }
     ],
     "_prefab": null,
-    "_id": "9d3dCFrApA94gWXFk4kdLH",
+    "_id": "59agrxfjtDu6x3dEHp9brq",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 49,
-      "g": 170,
-      "b": 19,
+      "r": 36,
+      "g": 143,
+      "b": 27,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,
@@ -961,7 +961,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": -398
+      "y": -400
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -1019,6 +1019,9 @@
     "node": {
       "__id__": 2
     },
-    "_enabled": true
+    "_enabled": true,
+    "bulletPrefab": {
+      "__uuid__": "cc0a78b6-e3a5-401b-abdb-7aa878f5563c"
+    }
   }
 ]
